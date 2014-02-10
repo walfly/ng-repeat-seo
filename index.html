@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src='angular.min.js'></script>
+    <script type="text/javascript" src='app.js'></script>
+  </head>
+  <body ng-app='app'>
+    <ul ng-controller='Ctrl'>
+      <li ng-repeat="item in repeatArr">
+        <p><span ng-bind='item.content'></span></p>
+      </li>
+    </ul>
+  </body>
+</html>
